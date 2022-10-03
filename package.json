@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/image-edge": "^1.0.0-27719579.87dcdf2",
+    "@nuxtjs/eslint-config-typescript": "^11.0.0",
+    "eslint": "^8.23.1",
+    "nuxt": "^3.0.0-rc.11",
+    "nuxt-windicss": "^2.5.2"
+  },
+  "dependencies": {
+    "@mdi/js": "^7.0.96",
+    "animejs": "^3.2.1",
+    "mdi-vue": "^3.0.13"
+  }
+}

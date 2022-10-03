@@ -1,0 +1,26 @@
+{
+    "extends": [
+        "@nuxtjs/eslint-config-typescript"
+    ],
+    "rules": {
+        "indent": [
+            1,
+            4
+        ],
+        "no-mixed-spaces-and-tabs": [
+            2,
+            false
+        ],
+        "vue/html-indent": [
+            1,
+            4
+        ],
+        "vue/max-len": [
+            "error",
+            {
+                "code": 80,
+                "template": 80
+            }
+        ]
+    }
+}

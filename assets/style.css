@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Pacifico';
+    src: url('../assets/fonts/Cookie-Regular.ttf') format('truetype');
+}
+
+
+body {
+    @apply text-default
+}
+
+h1 {
+    @apply text-3xl;
+}
+
+h2 {
+    @apply text-2xl;
+}
+
+.btn {
+    @apply text-primary-background rounded-md border-primary bg-primary px-4 py-2 transition duration-300;
+}
+
+.btn:hover {
+    @apply bg-primary-hover shadow-md shadow-primary-hover;
+}
+
+.btn--rounded {
+    @apply rounded-full;
+}
