@@ -8,13 +8,13 @@ interface IBgIcon {
 
 export const useUtils = function () {
     const availableImages: string[] = [
-        '/images/bg-1.jpg',
-        '/images/bg-2.jpg',
-        '/images/bg-3.jpg',
-        '/images/bg-4.jpg',
-        '/images/bg-5.jpg',
-        '/images/bg-6.jpg',
-        '/images/bg-7.jpg'
+        '../assets/images/bg-1.jpg',
+        '../assets/images/bg-2.jpg',
+        '../assets/images/bg-3.jpg',
+        '../assets/images/bg-4.jpg',
+        '../assets/images/bg-5.jpg',
+        '../assets/images/bg-6.jpg',
+        '../assets/images/bg-7.jpg'
     ]
     const fogImages: string[] = [
         '../assets/images/fog1.png',
