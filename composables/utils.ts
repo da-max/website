@@ -8,17 +8,17 @@ interface IBgIcon {
 
 export const useUtils = function () {
     const availableImages: string[] = [
-        'assets/images/bg-1.jpg',
-        'assets/images/bg-2.jpg',
-        'assets/images/bg-3.jpg',
-        'assets/images/bg-4.jpg',
-        'assets/images/bg-5.jpg',
-        'assets/images/bg-6.jpg',
-        'assets/images/bg-7.jpg'
+        'static/images/bg-1.jpg',
+        'static/images/bg-2.jpg',
+        'static/images/bg-3.jpg',
+        'static/images/bg-4.jpg',
+        'static/images/bg-5.jpg',
+        'static/images/bg-6.jpg',
+        'static/images/bg-7.jpg'
     ]
     const fogImages: string[] = [
-        'assets/images/fog1.png',
-        'assets/images/fog2.png'
+        'static/images/fog1.png',
+        'static/images/fog2.png'
     ]
 
     const onMouseOver = (event: Event, overClass: string) => {

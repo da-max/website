@@ -16,7 +16,6 @@ export default defineNuxtConfig({
         preset: 'netlify'
     },
     image: {
-        provider: 'netlify',
-        dir: 'assets/images'
+        provider: 'netlify'
     }
 })
