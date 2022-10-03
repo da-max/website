@@ -14,5 +14,9 @@ export default defineNuxtConfig({
     ],
     nitro: {
         preset: 'netlify'
+    },
+    image: {
+        provider: 'netlify',
+        dir: 'assets/images'
     }
 })
