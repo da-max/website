@@ -1,3 +1,5 @@
 {
-    "cSpell.language": "en,fr"
+    "cSpell.language": "en,fr",
+    "liveServer.settings.multiRootWorkspaceName": "",
+    "liveServer.settings.root": "/.output/public"
 }

@@ -1,11 +1,24 @@
 <template>
     <div class="relative">
+        <div
+            :class="[
+                'absolute',
+                'top-0',
+                'min-h-[100vh]',
+                'flex',
+                'flex-col',
+                'justify-between']"
+        >
+            <PartialsNavbar class="z-10" />
+            <NuxtPage />
+            <PartialsFooter class="z-10" />
+        </div>
         <mdicon
             v-for="icon in bgIcons"
             :key="icon.name"
             v-parallax="icon.blur / 20"
             :class="['absolute',
-                     'z-12',
+                     'z-3',
                      'filter',
                      'drop-shadow-xl',
                      icon.class,
@@ -15,11 +28,6 @@
             @mouseover="(e: Event) => onMouseOver(e, icon.activeClass)"
             @mouseleave="(e: Event) => onMouseLeave(e, icon.activeClass)"
         />
-
-        <div class="absolute z-11 top-0 min-h-[100vh]">
-            <PartialsNavbar />
-            <NuxtPage />
-        </div>
         <nuxt-img
             v-for="image in availableImages"
             :key="image"
@@ -45,7 +53,7 @@
                          'fixed',
                          'h-screen',
                          'w-[300vw]',
-                         'z-10',
+                         'z-1',
                          'bg-repeat-x',
                          'bg-cover',
                          'bg-center']"

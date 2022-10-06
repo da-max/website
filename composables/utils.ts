@@ -8,17 +8,17 @@ interface IBgIcon {
 
 export const useUtils = function () {
     const availableImages: string[] = [
-        'static/images/bg-1.jpg',
-        'static/images/bg-2.jpg',
-        'static/images/bg-3.jpg',
-        'static/images/bg-4.jpg',
-        'static/images/bg-5.jpg',
-        'static/images/bg-6.jpg',
-        'static/images/bg-7.jpg'
+        'images/bg-1.jpg',
+        'images/bg-2.jpg',
+        'images/bg-3.jpg',
+        'images/bg-4.jpg',
+        'images/bg-5.jpg',
+        'images/bg-6.jpg',
+        'images/bg-7.jpg'
     ]
     const fogImages: string[] = [
-        'static/images/fog1.png',
-        'static/images/fog2.png'
+        'images/fog1.png',
+        'images/fog2.png'
     ]
 
     const onMouseOver = (event: Event, overClass: string) => {
@@ -39,7 +39,7 @@ export const useUtils = function () {
             lg:left-[90vw] 
             transform rotate-25 
             animate-pulse-so-slow 
-            drop-shadow-2xl duration-150`,
+            drop-shadow-2xl blur-2`,
             size: 100,
             activeClass: 'animate-pulse-slow',
             blur: 2
@@ -75,19 +75,24 @@ export const useUtils = function () {
         },
         {
             name: 'git',
-            class: 'top-[30vh] left-[10vw] <md:hidden',
+            class: `top-[30vh] 
+                left-[10vw] 
+                <md:hidden 
+                transition
+                duration-15000`,
             size: 150,
-            blur: 7
+            blur: 7,
+            activeClass: 'blur-1'
         },
         {
             name: 'language-css3',
-            class: `top-[80vh]             
+            class: `top-[70vh]             
             left-[75vw]
             transform -rotate-10 text-secondary
             transition-colors duration-15000`,
-            size: 50,
+            size: 120,
             activeClass: '!text-default',
-            blur: 1
+            blur: 7
         },
         {
             name: 'language-html5',
@@ -101,7 +106,7 @@ export const useUtils = function () {
             left-[60vw] 
             sm:left-[80vw]
             lg:left-[70vw]
-            transform rotate-10
+            transform-gpu rotate-10
             text-primary <lg:hidden`,
             activeClass: 'animate-spin-slow',
             size: 110,
@@ -123,38 +128,48 @@ export const useUtils = function () {
         },
         {
             name: 'language-python',
-            class: 'top-[64vh] left-[2vw] sm:left-[30vw] text-secondary',
+            class: `top-[64vh] left-[2vw] sm:left-[30vw] text-secondary 
+            transition-colors duration-17000 animate-spin-so-slow`,
             blur: 1,
-            size: 100
+            size: 100,
+            activeClass: '!text-primary'
         },
         {
             name: 'language-go',
             class: 'top-[110vh] left-[40vw] text-primary',
             blur: 3,
-            size: 60
+            size: 60,
+            activeClass: 'animate-bounce-slow'
         },
         {
             name: 'gitlab',
-            class: 'top-[70vh] left-[25vw] <lg:hidden',
+            class: 'top-[70vh] left-[25vw] transform-gpu -rotate-10 <lg:hidden',
             blur: 7,
             size: 100
         },
         {
             name: 'laravel',
-            class: 'top-[20vh] left-[40vw] <md:hidden text-primary',
+            class: `top-[20vh] 
+                    left-[40vw] 
+                    <md:hidden 
+                    text-primary 
+                    transform-gpu 
+                    -skew-y-12`,
             blur: 2,
             size: 90
         },
         {
             name: 'nuxt',
-            class: 'top-[80vh] left-[50vw]',
+            class: 'top-[80vh] left-[50vw] transition-colors duration-1200',
             blur: 1,
-            size: 70
+            size: 70,
+            activeClass: 'text-primary'
         },
         {
             name: 'fedora',
             class: 'top-[85vh] left-[40vw] blur-4 text-primary <md:hidden',
-            blur: 4
+            blur: 4,
+            activeClass: 'animate-pulse'
         },
         {
             name: 'centos',
@@ -164,7 +179,7 @@ export const useUtils = function () {
         },
         {
             name: 'debian',
-            class: 'top-[10vh] left-[80vw] blur-5 text-secondary <md:hidden',
+            class: 'top-[10vh] left-[80vw] blur-5 text-secondary <lg:hidden',
             blur: 5,
             size: 90
         },
