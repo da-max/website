@@ -1,0 +1,12 @@
+version: "3.1"
+
+services:
+    app:
+        image: node:18.10.0-buster
+        working_dir: /home/node/app
+        ports:
+            - 3000:3000
+        volumes:
+            - .:/home/node/app:z
+        command: sh -c "npm install && npm run dev -- -o"
+

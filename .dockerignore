@@ -1,0 +1,7 @@
+Dockerfile.prod
+.git
+.env
+node_modules
+.gitignore
+dist
+.nuxt

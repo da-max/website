@@ -1,0 +1,40 @@
+# -----------
+# | BUILDER |
+# -----------
+FROM node:18.10.0-alpine as builder
+
+WORKDIR /home/node/app
+
+RUN apk add --no-cache --virtual .gyp python3=3.10.5-r0 make=4.3-r0 g++=11.2.1_git20220219-r2
+
+COPY package.json ./
+
+RUN npm install
+
+COPY . .
+
+RUN npm run build
+
+RUN apk del .gyp
+
+# -------
+# | APP |
+# -------
+FROM node:18.10.0-alpine
+
+ENV NODE_ENV=production
+
+WORKDIR /home/node/app
+
+RUN apk add --no-cache tini=0.19.0-r0
+ENTRYPOINT ["tini", "--", "node"]
+
+COPY --from=builder --chown=node:node /home/node/app/node_modules ./node_modules
+COPY --from=builder --chown=node:node /home/node/app/.output ./.output
+
+RUN ls /home/node/app/.output
+
+EXPOSE 3000
+
+USER node
+CMD [".output/server/index.mjs"]
