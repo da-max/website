@@ -64,15 +64,15 @@ export const useUtils = function () {
             size: 90,
             blur: 2
         },
-        {
-            name: 'language-javascript',
-            class: `top-[100vh]
-            left-[50vw] 
-            sm:left-[70vw]
-            lg:left-[86vw] 
-            transform rotate-25 drop-shadow-2xl`,
-            blur: 4
-        },
+        // {
+        //     name: 'language-javascript',
+        //     class: `top-[100vh]
+        //     left-[50vw]
+        //     sm:left-[70vw]
+        //     lg:left-[86vw]
+        //     transform rotate-25 drop-shadow-2xl`,
+        //     blur: 4
+        // },
         {
             name: 'git',
             class: `top-[30vh] 
@@ -87,7 +87,7 @@ export const useUtils = function () {
         {
             name: 'language-css3',
             class: `top-[70vh]             
-            left-[75vw]
+            left-[65vw]
             transform -rotate-10 text-secondary
             transition-colors duration-15000`,
             size: 120,
@@ -126,21 +126,21 @@ export const useUtils = function () {
             blur: 2,
             size: 70
         },
-        {
-            name: 'language-python',
-            class: `top-[64vh] left-[2vw] sm:left-[30vw] text-secondary 
-            transition-colors duration-17000 animate-spin-so-slow`,
-            blur: 1,
-            size: 100,
-            activeClass: '!text-primary'
-        },
-        {
-            name: 'language-go',
-            class: 'top-[110vh] left-[40vw] text-primary',
-            blur: 3,
-            size: 60,
-            activeClass: 'animate-bounce-slow'
-        },
+        // {
+        //     name: 'language-python',
+        //     class: `top-[64vh] left-[2vw] sm:left-[30vw] text-secondary
+        //     transition-colors duration-17000 animate-spin-so-slow`,
+        //     blur: 1,
+        //     size: 100,
+        //     activeClass: '!text-primary'
+        // },
+        // {
+        //     name: 'language-go',
+        //     class: 'top-[110vh] left-[40vw] text-primary',
+        //     blur: 3,
+        //     size: 60,
+        //     activeClass: 'animate-bounce-slow'
+        // },
         {
             name: 'gitlab',
             class: 'top-[70vh] left-[25vw] transform-gpu -rotate-10 <lg:hidden',
@@ -159,13 +159,6 @@ export const useUtils = function () {
             size: 90
         },
         {
-            name: 'nuxt',
-            class: 'top-[80vh] left-[50vw] transition-colors duration-1200',
-            blur: 1,
-            size: 70,
-            activeClass: 'text-primary'
-        },
-        {
             name: 'fedora',
             class: 'top-[85vh] left-[40vw] blur-4 text-primary <md:hidden',
             blur: 4,
@@ -173,8 +166,8 @@ export const useUtils = function () {
         },
         {
             name: 'centos',
-            class: 'top-[90vh] left-[20vw] blur-7 <lg:hidden',
-            blur: 7,
+            class: 'top-[54vh] left-[2vw] sm:left-[30vw] text-secondary',
+            blur: 4,
             size: 170
         },
         {

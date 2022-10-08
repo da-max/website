@@ -9,7 +9,7 @@
                 'flex-col',
                 'justify-between']"
         >
-            <PartialsNavbar class="z-10" />
+            <PartialsNavbar class="z-20" />
             <NuxtPage />
             <PartialsFooter class="z-10" />
         </div>
@@ -31,6 +31,7 @@
         <nuxt-img
             v-for="image in availableImages"
             :key="image"
+            format="webp"
             :src="image"
             alt="background-image"
             :class="[
@@ -45,6 +46,7 @@
                 'top-0'
             ]"
         />
+
         <div class="h-screen w-full overflow-hidden">
             <div
                 v-for="fog, i in fogImages"
@@ -92,7 +94,6 @@ onMounted(() => {
 </script>
 
 <style>
-
 @keyframes marquee {
     0% {
         transform: translate3d(0, 0, 0);
