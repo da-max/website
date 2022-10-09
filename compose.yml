@@ -7,6 +7,7 @@ services:
         ports:
             - 3000:3000
             - 24678:24678
+            - 3001:3001
         volumes:
             - .:/home/node/app:z
         command: sh -c "npm install && npm run dev -- -o"
