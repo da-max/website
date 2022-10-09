@@ -37,7 +37,7 @@ deploy:dev:
         - chmod 644 ~/.ssh/known_hosts
     script:
         - ssh $DEPLOYMENT_SERVER_USER@$DEPLOYMENT_SERVER_IP "docker login -u ${CI_REGISTRY_USER} -p ${CI_REGISTRY_PASSWORD} ${CI_REGISTRY}"
-        - ssh $DEPLOYMENT_SERVER_USER@$DEPLOYMENT_SERVER_IP "docker stop `docker ps --format {{.ID}} --filter ancestor=${IMAGE_TAG}`"
+        - ssh $DEPLOYMENT_SERVER_USER@$DEPLOYMENT_SERVER_IP "docker stop `docker ps --format {{.ID}} --filter ancestor=${CI_REGISTRY}/${IMAGE_TAG}`"
         - ssh $DEPLOYMENT_SERVER_USER@$DEPLOYMENT_SERVER_IP "docker pull ${IMAGE_TAG} && docker run -p 3001:3000 ${IMAGE_TAG}" || true
         - ssh $DEPLOYMENT_SERVER_USER@$DEPLOYMENT_SERVER_IP "docker container prune -f" || true
     only:
