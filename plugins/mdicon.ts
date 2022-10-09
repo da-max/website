@@ -1,8 +1,46 @@
 import mdiVue from 'mdi-vue/v3'
-import * as mdijs from '@mdi/js'
+import {
+    mdiVuejs,
+    mdiLanguageCss3,
+    mdiLanguageJavascript,
+    mdiLanguageTypescript,
+    mdiReact,
+    mdiGit,
+    mdiLanguageHtml5,
+    mdiDocker,
+    mdiSass,
+    mdiLanguagePhp,
+    mdiLanguagePython,
+    mdiLaravel,
+    mdiGitlab,
+    mdiCentos,
+    mdiDebian,
+    mdiWordpress,
+    mdiFedora,
+    mdiNuxt
+} from '@mdi/js'
 
 export default defineNuxtPlugin((nuxtApp) => {
     nuxtApp.vueApp.use(mdiVue, {
-        icons: mdijs
+        icons: {
+            mdiVuejs,
+            mdiLanguageCss3,
+            mdiLanguageJavascript,
+            mdiLanguageTypescript,
+            mdiReact,
+            mdiGit,
+            mdiLanguageHtml5,
+            mdiDocker,
+            mdiSass,
+            mdiLanguagePhp,
+            mdiLanguagePython,
+            mdiLaravel,
+            mdiGitlab,
+            mdiCentos,
+            mdiDebian,
+            mdiWordpress,
+            mdiFedora,
+            mdiNuxt
+        }
     })
 })

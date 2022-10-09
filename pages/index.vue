@@ -1,37 +1,16 @@
 <template>
     <main class="flex flex-col">
-        <header
-            class="flex
-                    flex-col
-                    items-center
-                    justify-center
-                    text-center
-                    h-[calc(100vh-104px)]"
-        >
-            <h1
-                class="pacifico
-                        text-8xl
-                        text-primary
-                        text-shadow-xl
-                        text-stroke-1
-                        text-stroke-default"
-            >
+        <UtilsMainHeader class="h-[calc(100vh-104px)]" :cta="true">
+            <template #firstTitle>
                 Maxime Ben Hassen
-            </h1>
-            <h2
-                class="
-                text-5xl
-                text-default
-                font-bold
-                text-stroke-2
-                text-stroke-primary"
-            >
+            </template>
+            <template #secondTitle>
                 Développeur freelance web et mobile
-            </h2>
-            <button class="btn btn--rounded text-2xl mt-6">
+            </template>
+            <template #cta>
                 En savoir plus
-            </button>
-        </header>
+            </template>
+        </UtilsMainHeader>
         <section
             class="my-60
                     lg:p-40 p-10

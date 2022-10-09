@@ -5,7 +5,6 @@
                  'bg-default-background',
                  'shadow-sm',
                  'shadow-default-background',
-                 'fixed',
                  'w-full']"
     >
         <nuxt-link to="/">

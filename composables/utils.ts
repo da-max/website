@@ -79,7 +79,7 @@ export const useUtils = function () {
                 left-[10vw] 
                 <md:hidden 
                 transition
-                duration-15000`,
+                duration-15000 blur-7`,
             size: 150,
             blur: 7,
             activeClass: 'blur-1'
