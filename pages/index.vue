@@ -1,6 +1,6 @@
 <template>
     <main class="flex flex-col">
-        <UtilsMainHeader class="h-[calc(100vh-104px)]" :cta="true">
+        <UtilsMainHeader class="h-[calc(100vh-104px)]" cta-to="/projects">
             <template #firstTitle>
                 Maxime Ben Hassen
             </template>

@@ -36,13 +36,15 @@
                             'min-h-screen',
                             'fixed',
                             'top-0',
-                            'object-cover']"
+                            'object-cover',
+                            'filter',
+                            'blur-10']"
         />
 
         <div class="h-screen w-full overflow-hidden">
             <div
                 v-for="fog, i in fogImages"
-                :key="fog"
+                :key="fog.src"
                 format="webp"
                 :class="[`fog-img-${i}`,
                          'fixed',

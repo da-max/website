@@ -17,7 +17,11 @@ import {
     mdiDebian,
     mdiWordpress,
     mdiFedora,
-    mdiNuxt
+    mdiNuxt,
+    mdiChevronLeft,
+    mdiChevronRight,
+    mdiCloseCircleOutline,
+    mdiGithub
 } from '@mdi/js'
 
 export default defineNuxtPlugin((nuxtApp) => {
@@ -40,7 +44,11 @@ export default defineNuxtPlugin((nuxtApp) => {
             mdiDebian,
             mdiWordpress,
             mdiFedora,
-            mdiNuxt
+            mdiNuxt,
+            mdiChevronLeft,
+            mdiChevronRight,
+            mdiCloseCircleOutline,
+            mdiGithub
         }
     })
 })

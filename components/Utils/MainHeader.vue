@@ -10,7 +10,6 @@
             <slot name="firstTitle" />
         </UtilsMainTitle>
         <h2
-            v-if="props.cta"
             class="
         text-5xl
         text-default
@@ -20,12 +19,20 @@
         >
             <slot name="secondTitle" />
         </h2>
-        <button class="btn btn--rounded text-2xl mt-6">
+        <UtilsButton
+            v-if="props.ctaTo"
+            :to="props.ctaTo"
+            :type="TYPE.PRIMARY"
+            :modifiers="[MODIFIER.ROUNDED]"
+            class="text-2xl mt-6"
+        >
             <slot name="cta" />
-        </button>
+        </UtilsButton>
     </header>
 </template>
 
 <script setup lang="ts">
-const props = defineProps<{ cta: boolean }>()
+import { MODIFIER, TYPE } from '~~/types/enums'
+
+const props = defineProps<{ ctaTo?: string }>()
 </script>

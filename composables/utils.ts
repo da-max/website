@@ -1,24 +1,18 @@
-interface IBgIcon {
-    class: string,
-    name: string,
-    size?: number,
-    activeClass?: string,
-    blur: number
-}
+import { NuxtImgProps, IBgIcon } from '~/types'
 
 export const useUtils = function () {
-    const availableImages: string[] = [
-        'images/bg-1.jpg',
-        'images/bg-2.jpg',
-        'images/bg-3.jpg',
-        'images/bg-4.jpg',
-        'images/bg-5.jpg',
-        'images/bg-6.jpg',
-        'images/bg-7.jpg'
+    const availableImages: NuxtImgProps[] = [
+        { src: 'images/bg-1.jpg' },
+        { src: 'images/bg-2.jpg' },
+        { src: 'images/bg-3.jpg' },
+        { src: 'images/bg-4.jpg' },
+        { src: 'images/bg-5.jpg' },
+        { src: 'images/bg-6.jpg' },
+        { src: 'images/bg-7.jpg' }
     ]
-    const fogImages: string[] = [
-        'images/fog1.png',
-        'images/fog2.png'
+    const fogImages: NuxtImgProps[] = [
+        { src: 'images/fog1.png' },
+        { src: 'images/fog2.png' }
     ]
 
     const onMouseOver = (event: Event, overClass: string) => {
