@@ -1,6 +1,7 @@
 import { defineConfig } from 'windicss/helpers'
 
 export default defineConfig({
+    darkMode: 'class',
     theme: {
         extend: {
             animation: {
@@ -26,7 +27,8 @@ export default defineConfig({
                 'primary-hover': '#056D89',
                 'primary-background': '#F2F1EF',
                 secondary: '#97BCC7',
-                'secondary-background': '#F2F1EF',
+                'secondary-background': '#050A30',
+                'secondary-hover': '#A2C1D2',
                 default: '#050A30',
                 'default-background': '#F2F1EF'
             }
