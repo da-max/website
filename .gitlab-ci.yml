@@ -53,17 +53,10 @@ deploy:prod:
         - docker:dind
     variables:
         DOCKER_DRIVER: overlay
-    before_script:
-        - mkdir -p ~/.ssh
-        - eval $(ssh-agent -s)
-        - echo "$SSH_PRIVATE_KEY" | tr -d '\r' | ssh-add -
-        - chmod 700 ~/.ssh
-        - ssh-keyscan $DEPLOYMENT_SERVER_IP >> ~/.ssh/known_hosts
-        - chmod 644 ~/.ssh/known_hosts
     script:
-        - ssh $DEPLOYMENT_SERVER_USER@$DEPLOYMENT_SERVER_IP "docker login -u ${CI_REGISTRY_USER} -p ${CI_REGISTRY_PASSWORD} ${CI_REGISTRY}"
-        - ssh $DEPLOYMENT_SERVER_USER@$DEPLOYMENT_SERVER_IP "docker-compose -f fedabian/compose.yml pull && docker-compose -f fedabian/compose.yml down && docker-compose -f fedabian/compose.yml up -d" || true
-        - ssh $DEPLOYMENT_SERVER_USER@$DEPLOYMENT_SERVER_IP "docker container prune -f" || true
+        - chmod og= $SSH_PRIVATE_KEY
+        - ssh -i $SSH_PRIVATE_KEY -o StrictHostKeyChecking=no $DEPLOYMENT_SERVER_USER@$DEPLOYMENT_SERVER_IP "docker login -u ${CI_REGISTRY_USER} -p ${CI_REGISTRY_PASSWORD} ${CI_REGISTRY}"
+        - ssh -i $SSH_PRIVATE_KEY -o StrictHostKeyChecking=no $DEPLOYMENT_SERVER_USER@$DEPLOYMENT_SERVER_IP "docker-compose -f fedabian/compose.yml pull && docker-compose -f fedabian/compose.yml down && docker-compose -f fedabian/compose.yml up -d" || true
     rules:
         - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
           when: manual
