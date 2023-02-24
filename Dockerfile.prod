@@ -5,7 +5,7 @@ FROM node:18.10.0-alpine as builder
 
 WORKDIR /home/node/app
 
-RUN apk add --no-cache --virtual .gyp python3=3.10.5-r0 make=4.3-r0 g++=11.2.1_git20220219-r2
+RUN apk add --no-cache --virtual .gyp python3 make g++
 
 COPY package.json ./
 
