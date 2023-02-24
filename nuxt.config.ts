@@ -4,11 +4,6 @@ export default defineNuxtConfig({
         'nuxt-windicss',
         '@nuxt/image-edge'
     ],
-    image: {
-      cloudimage: {
-          token: process.env.CLOUDIMAGE_TOKEN
-      }
-    },
     build: {
         transpile: ['mdi-vue']
     },

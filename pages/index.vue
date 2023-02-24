@@ -52,6 +52,24 @@
     </main>
 </template>
 
+<script lang="ts" setup>
+useHead({
+    title: 'Accueil | Fedabian',
+    meta: [
+        {
+            name: 'description',
+            content: 'Portfolio de Maxime Ben Hassen, développeur web.'
+        },
+        {
+            name: 'keywords',
+            content: `Maxime Ben Hassen, développeur web,
+            maxime benhassen, Maxime Ben Hassen portfolio,
+            développeur full-stack, développeur frontend, développeur backend`
+        }
+    ]
+})
+</script>
+
 <style scoped>
 header > * {
     @apply z-10;

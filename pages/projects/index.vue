@@ -22,6 +22,23 @@ import { IProject } from '~~/components/Projects/Item.vue'
 import { MODIFIER, TYPE, SIZE } from '~~/types/enums'
 import ProjectsModal from '~/components/Projects/Modal.vue'
 
+useHead({
+    title: 'Mes projets | Fedabian',
+    meta: [
+        {
+            name: 'description',
+            content: 'Les projects de Maxime `Da-max` Ben Hassen.'
+        },
+        {
+            name: 'keywords',
+            content: `maxime benhassen, maxime benhassen
+            portfolio, maxime benhassen développeur web,
+            maxime benhassen projets, da-max portfolio, da-max développeur,
+             fedabian développeur, fedabian portfolio, fedabian projets`
+        }
+    ]
+})
+
 const modal: Ref<InstanceType<typeof ProjectsModal> | null> = ref(null)
 const state = reactive<{projects: IProject[]}>({
     projects: [

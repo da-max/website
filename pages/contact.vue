@@ -34,6 +34,22 @@
 <script setup lang="ts">
 import { Social } from '~/types'
 
+useHead({
+    title: 'Me contacter | Fedabian',
+    meta: [
+        {
+            name: 'description',
+            content: 'Contacter Maxime `Da-max` Ben Hassen'
+        },
+        {
+            name: 'keywords',
+            content: `maxime benhassen, maxime benhassen portfolio,
+             maxime benhassen développeur web,
+             maxime benhassen contact`
+        }
+    ]
+})
+
 const socials: Social[] = [
     {
         title: 'Linkedin',
