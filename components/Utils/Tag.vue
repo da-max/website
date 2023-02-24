@@ -47,6 +47,7 @@ const tagClass = computed(() =>
         { 'text-xl': props.size === SIZE.XL },
         { 'text-sm': props.size === SIZE.SM }
     ])
+
 const iconSize = computed(() => {
     switch (props.size) {
     case SIZE.LG:

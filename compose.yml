@@ -11,4 +11,21 @@ services:
         volumes:
             - .:/home/node/app:z
         command: sh -c "npm install && npm run dev -- -o"
+        links:
+            -   redis:db
+        depends_on:
+            -   redis
+        env_file:
+            -   .env
+
+    redis:
+        image: redis:7.0
+        volumes:
+            -   db_data:/data:z
+        ports:
+            - 6379:6379
+        command: >
+            --requirepass ${REDIS_PASSWORD}
+        env_file:
+            -   .env
 

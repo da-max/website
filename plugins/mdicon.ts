@@ -21,7 +21,9 @@ import {
     mdiChevronLeft,
     mdiChevronRight,
     mdiCloseCircleOutline,
-    mdiGithub
+    mdiGithub,
+    mdiLinkedin,
+    mdiEmailBox
 } from '@mdi/js'
 
 export default defineNuxtPlugin((nuxtApp) => {
@@ -48,7 +50,9 @@ export default defineNuxtPlugin((nuxtApp) => {
             mdiChevronLeft,
             mdiChevronRight,
             mdiCloseCircleOutline,
-            mdiGithub
+            mdiGithub,
+            mdiLinkedin,
+            mdiEmailBox
         }
     })
 })

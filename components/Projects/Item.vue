@@ -31,13 +31,17 @@
         <UtilsHr />
         <footer
             v-if="project.website || project.code"
-            class="p-10 flex justify-evenly"
+            class="p-10 flex
+            lg:justify-evenly
+            items-center
+            lg:flex-row flex-col"
         >
             <UtilsButton
                 v-if="project.website"
                 target="_blank"
                 :href="project.website"
                 :type="TYPE.PRIMARY"
+                class="lg:m-0 my-5"
             >
                 Voir le projet
             </UtilsButton>

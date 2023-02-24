@@ -35,12 +35,24 @@
             v-if="project.website || project.code"
             #footer
         >
-            <p class="p-5 flex justify-evenly">
-                <UtilsButton :href="project.website" :type="TYPE.PRIMARY">
+            <p
+                class="md:p-5 p-2 flex md:flex-row
+            flex-col items-center justify-evenly"
+            >
+                <UtilsButton
+                    v-show="project.website"
+                    :href="project.website"
+                    :type="TYPE.PRIMARY"
+                    class="md:m-0 mb-2"
+                >
                     Voir le projet
                 </UtilsButton>
 
-                <UtilsButton :href="project.code" :type="TYPE.SECONDARY">
+                <UtilsButton
+                    v-show="project.code"
+                    :href="project.code"
+                    :type="TYPE.SECONDARY"
+                >
                     Voir le code source
                 </UtilsButton>
             </p>

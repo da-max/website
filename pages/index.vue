@@ -11,17 +11,7 @@
                 En savoir plus
             </template>
         </UtilsMainHeader>
-        <section
-            class="my-60
-                    lg:p-40 p-10
-                    flex flex-col
-                    bg-primary-background
-                    text-shadow-xl
-                    transform skew-y-6
-                    z-10
-                    relative overflow-hidden
-                    "
-        >
+        <UtilsSkewSection>
             <mdicon
                 v-parallax="5/20"
                 class="transform -skew-x-6 rotate-12
@@ -41,10 +31,10 @@
                 name="language-python"
                 :size="200"
             />
-            <h2 class="mb-6 text-center text-4xl transform -skew-y-6">
+            <h2 class="mb-6 text-center text-4xl">
                 Créateur de sites et d’applications web
             </h2>
-            <p class="transform -skew-y-6">
+            <p>
                 Initialement simple autodidacte, j’apprends le développement
                 web grâce à des cours en ligne. Je décide de poursuivre ma
                 formation en intégrant une licence d’informatique et en
@@ -53,12 +43,12 @@
                 Ces expériences m’ont permis de développer des compétences en
                 communication et en travails d’équipes.
             </p>
-            <p class="transform -skew-y-6">
+            <p>
                 C’est au cours de l’année 2020 que j’ai l’opportunité de me
                 lancer en tant que freelance et de faire mes premiers sites
                 et applications web pour des professionnels.
             </p>
-        </section>
+        </UtilsSkewSection>
     </main>
 </template>
 

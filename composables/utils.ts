@@ -16,6 +16,7 @@ export const useUtils = function () {
     ]
 
     const onMouseOver = (event: Event, overClass: string) => {
+        console.log(overClass);
         (event.currentTarget as HTMLElement)
             .classList.add(overClass)
     }
@@ -73,7 +74,8 @@ export const useUtils = function () {
                 left-[10vw] 
                 <md:hidden 
                 transition
-                duration-15000 blur-7`,
+                duration-15000 blur-7
+                animate-pulse-very-slow`,
             size: 150,
             blur: 7,
             activeClass: 'blur-1'
@@ -143,12 +145,13 @@ export const useUtils = function () {
         },
         {
             name: 'laravel',
-            class: `top-[20vh] 
+            class: `top-[10vh] 
                     left-[40vw] 
                     <md:hidden 
                     text-primary 
                     transform-gpu 
-                    -skew-y-12`,
+                    -skew-y-12
+                    animate-ping-slow`,
             blur: 2,
             size: 90
         },
@@ -160,7 +163,11 @@ export const useUtils = function () {
         },
         {
             name: 'centos',
-            class: 'top-[54vh] left-[2vw] sm:left-[30vw] text-secondary',
+            class: `top-[54vh] 
+                    left-[2vw] 
+                    sm:left-[30vw] 
+                    text-secondary 
+                    animate-inv-spin-much-slow`,
             blur: 4,
             size: 170
         },

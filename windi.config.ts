@@ -4,7 +4,18 @@ export default defineConfig({
     darkMode: 'class',
     theme: {
         extend: {
+            keyframes: {
+                inv: {
+                    '0%, 100%': {
+                        transform: 'rotate(0deg)'
+                    },
+                    '50%': {
+                        transform: 'rotate(-360deg)'
+                    }
+                }
+            },
             animation: {
+                'ping-slow': 'ping 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
                 'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
                 'pulse-very-slow': `pulse 
                                     6s cubic-bezier(0.4, 0, 0.6, 1) 
@@ -19,7 +30,9 @@ export default defineConfig({
                                     20s cubic-bezier(0,0,0.2,1) infinite`,
                 'spin-slow': 'spin 2s linear infinite',
                 'spin-very-slow': 'spin 4s linear infinite',
-                'spin-so-slow': 'spin 20s linear infinite'
+                'spin-so-slow': 'spin 20s linear infinite',
+                'spin-much-slow': 'spin 40s linear infinite',
+                'inv-spin-much-slow': 'inv 40s linear infinite'
             },
             textColor: {},
             colors: {

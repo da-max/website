@@ -11,8 +11,8 @@
     "@nuxt/image-edge": "^1.0.0-27719579.87dcdf2",
     "@nuxtjs/eslint-config-typescript": "^11.0.0",
     "eslint": "^8.23.1",
-    "nuxt": "^3.0.0-rc.11",
-    "nuxt-windicss": "^2.5.2"
+    "nuxt": "^3.0.0",
+    "nuxt-windicss": "^2.6.0"
   },
   "dependencies": {
     "@mdi/js": "^7.0.96",

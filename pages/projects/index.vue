@@ -5,7 +5,7 @@
         </header>
         <section class="flex items-center justify-center flex-wrap py-20">
             <ProjectsItem
-                v-for="project, i in state.projects"
+                v-for="(project, i) in state.projects"
                 :key="project.title"
                 :project="project"
                 :class="['md:w-2/5 m-5', getClassProject(i), i ]"
@@ -25,6 +25,67 @@ import ProjectsModal from '~/components/Projects/Modal.vue'
 const modal: Ref<InstanceType<typeof ProjectsModal> | null> = ref(null)
 const state = reactive<{projects: IProject[]}>({
     projects: [
+        {
+            title: 'AvocatFamille',
+            contribution: `En tant que développeur freelance, j’ai eu à
+            créer un site permettant la mise en avant des principaux avocats
+            spécialisé en droit de la famille du Québec.
+          Ainsi, j’ai créé un plugin et un thème Wordpress, permettant
+          d’ajouter facilement des nouveaux membres au site.`,
+            description: `L’entreprise qui souhaitait ce site est
+            le cabinet d’avocat DevichyAvocat. Il s’agit d’un des principaux
+            cabinet d’avocat du Québec.`,
+            images: [
+                { src: '/images/projects/avocatfamille/avocatfamille-1.png' },
+                { src: '/images/projects/avocatfamille/avocatfamille-2.png' },
+                { src: '/images/projects/avocatfamille/avocatfamille-3.png' },
+                { src: '/images/projects/avocatfamille/avocatfamille-4.png' }
+            ],
+            tags: [
+                {
+                    content: 'PHP',
+                    iconName: 'language-php',
+                    size: SIZE.SM
+                },
+                {
+                    content: 'Wordpress',
+                    iconName: 'wordpress',
+                    size: SIZE.SM
+                },
+                {
+                    content: 'TypeScript',
+                    type: TYPE.SECONDARY,
+                    iconName: 'language-typescript',
+                    size: SIZE.SM
+                },
+                {
+                    content: 'Scss',
+                    type: TYPE.SECONDARY,
+                    iconName: 'sass',
+                    size: SIZE.SM
+                },
+                {
+                    content: 'Git',
+                    type: TYPE.DEFAULT,
+                    iconName: 'git',
+                    size: SIZE.SM
+                },
+                {
+                    content: 'Docker',
+                    type: TYPE.DEFAULT,
+                    iconName: 'docker',
+                    size: SIZE.SM
+                },
+                {
+                    content: 'Gitlab CI/CD',
+                    modifiers: [MODIFIER.ROUNDED],
+                    type: TYPE.DEFAULT,
+                    iconName: 'gitlab',
+                    size: SIZE.SM
+                }
+            ],
+            website: 'https://avocatfamille.com'
+        },
         {
             title: 'Les arsenaux Sàrl',
             contribution: `En tant que développeur freelance, 
@@ -279,7 +340,9 @@ const state = reactive<{projects: IProject[]}>({
 const currentProject: Ref<IProject> = ref(state.projects[0])
 
 const openModal = (project: IProject) => {
-    modal.value.open()
+    if (modal.value !== null) {
+        modal.value.open()
+    }
     currentProject.value = project
 }
 
