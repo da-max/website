@@ -9,5 +9,13 @@ export default defineNuxtConfig({
     },
     css: [
         '/assets/style.css'
-    ]
+    ],
+    nitro: {
+        storage: {
+            fs: {
+                driver: 'fs',
+                base: './data'
+            }
+        }
+    }
 })

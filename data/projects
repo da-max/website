@@ -1,0 +1,323 @@
+[
+  {
+    "title": "AvocatFamille",
+    "contribution": "En tant que développeur freelance, j’ai eu à créer un site permettant la mise en avant des principaux avocats spécialisé en droit de la famille du Québec. Ainsi, j’ai créé un plugin et un thème Wordpress, permettant d’ajouter facilement des nouveaux membres au site.",
+    "description": "L’entreprise qui souhaitait ce site est le cabinet d’avocat DevichyAvocat. Il s’agit d’un des principauxcabinet d’avocat du Québec.",
+    "images": [
+      {
+        "src": "/images/projects/avocatfamille/avocatfamille-1.png"
+      },
+      {
+        "src": "/images/projects/avocatfamille/avocatfamille-2.png"
+      },
+      {
+        "src": "/images/projects/avocatfamille/avocatfamille-3.png"
+      },
+      {
+        "src": "/images/projects/avocatfamille/avocatfamille-4.png"
+      }
+    ],
+    "tags": [
+      {
+        "content": "PHP",
+        "iconName": "language-php",
+        "size": 0
+      },
+      {
+        "content": "Wordpress",
+        "iconName": "wordpress",
+        "size": 0
+      },
+      {
+        "content": "TypeScript",
+        "type": "secondary",
+        "iconName": "language-typescript",
+        "size": 0
+      },
+      {
+        "content": "Scss",
+        "type": "secondary",
+        "iconName": "sass",
+        "size": 0
+      },
+      {
+        "content": "Git",
+        "type": "default",
+        "iconName": "git",
+        "size": 0
+      },
+      {
+        "content": "Docker",
+        "type": "default",
+        "iconName": "docker",
+        "size": 0
+      },
+      {
+        "content": "Gitlab CI/CD",
+        "modifiers": [
+          0
+        ],
+        "type": "default",
+        "iconName": "gitlab",
+        "size": 0
+      }
+    ],
+    "website": "https://avocatfamille.com"
+  },
+  {
+    "title": "Les arsenaux Sàrl",
+    "contribution": "En tant que développeur freelance, j’ai eu à intégrer une maquette fournie.Afin de rendre le site dynamique j’ai également euà créer un thème et un plugin WordPress. Le site étant multi-langue,j’ai eu à utiliser différents plugins tel que ACF et Polylang.Pour accélérer le développement et la présentation au clientj’ai créé un pipeline pour automatiser le déploiement de la version de développement et de production. Enfin, j’aicrée de la documentation afin que le client soit le plus autonome possible et puisse ajouter et modifier le site aumieux.",
+    "description": "L’entreprise suisse, basée à Fribourg,Les arsenaux procure des soins en art-thérapie et en ergothérapie.Elle m’a contacté afin que je crée leur site vitrine.Le site nécessitait différentes fonctionnalités tel que le supportde plusieurs langues (Français-Allemand) et la modularité (permettre d’ajouter des nouvelles images, des nouveaux soins, etc.).",
+    "images": [
+      {
+        "src": "/images/projects/arsenaux/arsenaux-1.png"
+      },
+      {
+        "src": "/images/projects/arsenaux/arsenaux-2.png"
+      },
+      {
+        "src": "/images/projects/arsenaux/arsenaux-3.png"
+      },
+      {
+        "src": "/images/projects/arsenaux/arsenaux-4.png"
+      }
+    ],
+    "tags": [
+      {
+        "content": "PHP",
+        "iconName": "language-php",
+        "size": 0
+      },
+      {
+        "content": "Wordpress",
+        "iconName": "wordpress",
+        "size": 0
+      },
+      {
+        "content": "TypeScript",
+        "type": "secondary",
+        "iconName": "language-typescript",
+        "size": 0
+      },
+      {
+        "content": "Scss",
+        "type": "secondary",
+        "iconName": "sass",
+        "size": 0
+      },
+      {
+        "content": "Git",
+        "type": "default",
+        "iconName": "git",
+        "size": 0
+      },
+      {
+        "content": "Docker",
+        "type": "default",
+        "iconName": "docker",
+        "size": 0
+      },
+      {
+        "content": "Gitlab CI/CD",
+        "modifiers": [
+          0
+        ],
+        "type": "default",
+        "iconName": "gitlab",
+        "size": 0
+      }
+    ],
+    "website": "https://ergo-art-senaux.ch"
+  },
+  {
+    "title": "Contribulle",
+    "contribution": "Depuis novembre 2020, je contribue au frontend (HTML, SCSS, JS) du site Contribulle. Je contribue activement en projeten prenant par à des réunions mensuelles et en ajoutant des nouvellesfonctionnalités.",
+    "description": "Contribulle est une plateforme, sous licence libre, a pour but de mettre en relation des contributeur⋅ice⋅set des projets, principalement, libres. Le projet est né dans le cadre d'un Contribatelier au milieu de l'année 2020.",
+    "images": [
+      {
+        "src": "/images/projects/contribulle/contribulle-1.png"
+      },
+      {
+        "src": "/images/projects/contribulle/contribulle-2.png"
+      },
+      {
+        "src": "/images/projects/contribulle/contribulle-3.png"
+      },
+      {
+        "src": "/images/projects/contribulle/contribulle-4.png"
+      }
+    ],
+    "website": "https://contribulle.org",
+    "code": "https://framagit.org/participalibre/participalibre",
+    "tags": [
+      {
+        "content": "PHP",
+        "iconName": "language-php",
+        "size": 0
+      },
+      {
+        "content": "Laravel",
+        "modifiers": [
+          0
+        ],
+        "iconName": "laravel",
+        "size": 0
+      },
+      {
+        "content": "JavaScript",
+        "type": "secondary",
+        "iconName": "language-javascript",
+        "size": 0
+      },
+      {
+        "content": "Scss",
+        "type": "secondary",
+        "iconName": "sass",
+        "size": 0
+      },
+      {
+        "content": "Git",
+        "type": "default",
+        "iconName": "git",
+        "size": 0
+      },
+      {
+        "content": "Gitlab",
+        "modifiers": [
+          0
+        ],
+        "type": "default",
+        "iconName": "gitlab",
+        "size": 0
+      }
+    ]
+  },
+  {
+    "title": "TokTok",
+    "contribution": "Cette application web permet aux militants du mouvement politique « La France Insoumise » de noter les portes-à-portes qu’iels ont effectués et de repérer les endroits où il est le plus utile de militer.",
+    "description": "J’ai participé à sa création (depuis décembre 2021) en tant que développeur frontend(principalement en TypeScript), j’ai donc eu à réfléchirautour des technologies à utiliser et des fonctionnalitésà apporter.",
+    "images": [
+      {
+        "src": "/images/projects/toktok/toktok-1.png"
+      },
+      {
+        "src": "/images/projects/toktok/toktok-2.png"
+      },
+      {
+        "src": "/images/projects/toktok/toktok-3.png"
+      },
+      {
+        "src": "/images/projects/toktok/toktok-4.png"
+      }
+    ],
+    "tags": [
+      {
+        "content": "Python",
+        "iconName": "language-python",
+        "size": 0
+      },
+      {
+        "content": "Flask",
+        "modifiers": [
+          0
+        ],
+        "size": 0
+      },
+      {
+        "content": "TypeScript",
+        "type": "secondary",
+        "iconName": "language-typescript",
+        "size": 0
+      },
+      {
+        "content": "Css",
+        "type": "secondary",
+        "iconName": "language-css3",
+        "size": 0
+      },
+      {
+        "content": "Git",
+        "type": "default",
+        "iconName": "git",
+        "size": 0
+      },
+      {
+        "content": "Docker",
+        "type": "default",
+        "iconName": "docker",
+        "size": 0
+      },
+      {
+        "content": "Github",
+        "modifiers": [
+          0
+        ],
+        "type": "default",
+        "iconName": "github",
+        "size": 0
+      }
+    ]
+  },
+  {
+    "title": "Court-circuit La Piarre",
+    "contribution": "Cette application web permet aux militants du mouvement politique « La France Insoumise » de noter les portes-à-portes qu’iels ont effectués et de repérer les endroits où il est le plus utile de militer. J’ai participé à sa création (depuis décembre 2021) en tant que développeur frontend (principalement en TypeScript), j’ai donc eu à réfléchir autour des technologies à utiliser et des fonctionnalités à apporter.",
+    "description": "Depuis novembre 2020, je contribue au frontend (HTML, SCSS, JS) du site Contribulle. Cette plateforme, sous licence libre, a pour but de mettre en relation des contributeur⋅ice⋅set des projets, principalement, libres.",
+    "images": [
+      {
+        "src": "/images/projects/cclapiarre/cclapiarre-1.png"
+      },
+      {
+        "src": "/images/projects/cclapiarre/cclapiarre-2.png"
+      },
+      {
+        "src": "/images/projects/cclapiarre/cclapiarre-3.png"
+      },
+      {
+        "src": "/images/projects/cclapiarre/cclapiarre-4.png"
+      }
+    ],
+    "tags": [
+      {
+        "content": "Python",
+        "iconName": "language-python",
+        "size": 0
+      },
+      {
+        "content": "Django",
+        "modifiers": [
+          0
+        ],
+        "size": 0
+      },
+      {
+        "content": "JavaScript",
+        "type": "secondary",
+        "iconName": "language-javascript",
+        "size": 0
+      },
+      {
+        "content": "VueJs",
+        "type": "secondary",
+        "iconName": "vuejs",
+        "size": 0
+      },
+      {
+        "content": "Git",
+        "type": "default",
+        "iconName": "git",
+        "size": 0
+      },
+      {
+        "content": "Gitlab",
+        "modifiers": [
+          0
+        ],
+        "type": "default",
+        "iconName": "gitlab",
+        "size": 0
+      }
+    ],
+    "website": "https://cclapiarre.deblan.fr",
+    "code": "https://gitlab.com/damax/cclapiarre"
+  }
+]
