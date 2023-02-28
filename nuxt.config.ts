@@ -19,6 +19,9 @@ export default defineNuxtConfig({
         }
     },
     image: {
-        provider: 'netlify'
+        provider: 'netlify',
+        netlify: {
+            baseURL: 'https://beta.fedabian.fr'
+        }
     }
 })
