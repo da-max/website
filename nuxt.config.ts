@@ -17,11 +17,5 @@ export default defineNuxtConfig({
                 base: './data'
             }
         }
-    },
-    image: {
-        provider: 'netlify',
-        netlify: {
-            baseURL: 'https://beta.fedabian.fr'
-        }
     }
 })
