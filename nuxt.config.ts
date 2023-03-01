@@ -17,8 +17,5 @@ export default defineNuxtConfig({
                 base: './data'
             }
         }
-    },
-    image: {
-        provider: 'ipx',
     }
 })
