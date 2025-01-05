@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2 class="uppercase text-xs font-semibold text-gray-400 mb-4">FIND ME ON</h2>
+    <h2 class="uppercase text-xs font-semibold text-gray-400 mb-4">TROUVEZ MOI SUR</h2>
     <div class="space-y-5">
       <NuxtLink
         v-for="link in links"
@@ -26,23 +26,38 @@
 const links = [
   {
     name: "Twitter",
-    url: "https://twitter.com/fayazara",
-    icon: "mdi:twitter",
+    url: "https://twitter.com/Damaaax",
+    icon: "simple-icons:twitter",
+  },
+  {
+    name: 'Bluesky',
+    url: 'https://bsky.app/profile/da-max.bsky.social',
+    icon: 'simple-icons:bluesky'
   },
   {
     name: "GitHub",
-    url: "https://github.com/fayazara",
-    icon: "mdi:github",
+    url: "https://github.com/da-max",
+    icon: "simple-icons:github",
+  },
+  {
+    name: 'GitLab',
+    url: 'https://gitlab.com/Damax',
+    icon: 'simple-icons:gitlab'
   },
   {
     name: "Linkedin",
-    url: "https://www.linkedin.com/in/fayaz-aralikatti/",
-    icon: "mdi:linkedin",
+    url: "https://www.linkedin.com/in/maxime-ben-hassen-a9aa2a21a/",
+    icon: "simple-icons:linkedin",
   },
   {
     name: "Telegram",
-    url: "https://t.me/fayazara",
+    url: "https://t.me/Damaaax",
     icon: "mdi:telegram",
   },
+  {
+    name: 'Instagram',
+    url: 'https://www.instagram.com/maximebh____/',
+    icon: 'simple-icons:instagram'
+  }
 ];
 </script>

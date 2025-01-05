@@ -11,9 +11,9 @@
 
 <script setup>
 const description =
-  "All of my long-form thoughts on programming, user interfaces, product design, and more, collected in chronological order.";
+  "Voici les articles que j’ai écrit. Beaucoup parle d’informatique et de développement logiciel, parfois un peu de politique, d’économie, voir de philosophie.";
 useSeoMeta({
-  title: "Articles | Fayaz Ahmed",
+  title: "Articles | Maxime Ben Hassen",
   description,
 });
 

@@ -8,14 +8,15 @@
         :project="project"
       />
     </div>
+    <NuxtPage />
   </main>
 </template>
 
-<script setup>
+<script setup lang="ts">
 const description =
-  "I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved.";
+  "J’ai travaillé sur un certains nombre de projets. Certains en tant que développeur freelance, pour la plupart ce sont des projets bénévoles pour des associations ou organisations. Enfin certains sont juste des amusements personnels me permettant de développer, consolider ou découvrir de nouvelles technologies.";
 useSeoMeta({
-  title: "Projects | Fayaz Ahmed",
+  title: "Projects | Maxime Ben Hassen",
   description,
 });
 
