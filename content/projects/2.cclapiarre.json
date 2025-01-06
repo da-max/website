@@ -1,0 +1,15 @@
+{
+    "name": "Court-circuit La Piarre",
+    "url": "https://beta.cclapiarre.fedabian.fr/",
+    "description": "Cette application web permet aux adhérents de l’association Court-circuit d’organiser leurs commandes.",
+    "thumbnail": "/projects/cclapiarre.png",
+    "status": "live",
+    "slug": "cclapiarre",
+    "opensource": true,
+    "images": [
+        "/projects/images/cclapiarre/cclapiarre-1.webp",
+        "/projects/images/cclapiarre/cclapiarre-2.webp",
+        "/projects/images/cclapiarre/cclapiarre-3.webp",
+        "/projects/images/cclapiarre/cclapiarre-4.webp"
+    ]
+}

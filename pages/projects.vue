@@ -8,7 +8,7 @@
         :project="project"
       />
     </div>
-    <NuxtPage />
+    <NuxtPage :page-key="(route) => route.fullPath" />
   </main>
 </template>
 

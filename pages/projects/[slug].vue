@@ -2,7 +2,6 @@
 const isOpen = ref(true);
 
 watch(isOpen, () => {
-  console.log(isOpen);
   if (!isOpen.value) {
     navigateTo("/projects");
   }
@@ -26,9 +25,18 @@ watch(isOpen, () => {
         }"
       >
         <template #header>
-          <h1 class="text-2xl font-bold">
-            {{ doc.name }}
-          </h1>
+          <div class="flex items-center justify-between">
+            <h1 class="text-2xl font-bold">
+              {{ doc.name }}
+            </h1>
+            <UButton
+              color="gray"
+              variant="ghost"
+              icon="i-heroicons-x-mark-20-solid"
+              class="-my-1"
+              @click="isOpen = false"
+            />
+          </div>
         </template>
         <UCarousel
           :items="doc.images"
@@ -60,7 +68,11 @@ watch(isOpen, () => {
           {{ doc.description }}
         </p>
         <template #footer>
-          <UButton></UButton>
+          <div class="text-center" v-show="doc.status === 'live'">
+            <UButton size="xl" :to="doc.url" target="_blank">
+              Voir le projet
+            </UButton>
+          </div>
         </template>
       </UCard>
     </ContentDoc>
