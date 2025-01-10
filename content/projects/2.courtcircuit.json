@@ -1,0 +1,15 @@
+{
+    "name": "Court circuit La Piarre",
+    "url": "https://beta.cclapiarre.fedabian.fr",
+    "description": "Contribulle est une plateforme, sous licence libre, a pour but de mettre en relation des contributeur⋅ice⋅set des projets, principalement, libres. Le projet est né dans le cadre d'un Contribatelier.",
+    "thumbnail": "/projects/contribulle.svg",
+    "status": "live",
+    "slug": "contribulle",
+    "opensource": false,
+    "images": [
+        "/projects/images/toktok/toktok-1.webp",
+        "/projects/images/toktok/toktok-2.webp",
+        "/projects/images/toktok/toktok-3.webp",
+        "/projects/images/toktok/toktok-4.webp"
+    ]
+}
