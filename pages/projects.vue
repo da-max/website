@@ -1,6 +1,6 @@
 <template>
   <main class="min-h-screen">
-    <AppHeader class="mb-12" title="Projects" :description="description" />
+    <AppHeader class="mb-12" title="Projets" :description="description" />
     <div class="space-y-4">
       <AppProjectCard
         v-for="(project, id) in projects"
