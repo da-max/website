@@ -7,7 +7,6 @@ export default defineNuxtConfig({
     "@nuxtjs/fontaine",
     "@nuxt/image",
     "@nuxt/content",
-    "@nuxthq/studio",
     "@vueuse/nuxt",
     "@nuxt/icon",
   ],
