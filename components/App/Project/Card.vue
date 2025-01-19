@@ -25,11 +25,10 @@
   </NuxtLink>
 </template>
 
-<script setup>
-defineProps({
-  project: {
-    type: Object,
-    required: true,
-  },
-});
+<script setup lang="ts">
+import type { Project } from "~/types";
+
+defineProps<{
+  project: Project;
+}>();
 </script>

@@ -1,6 +1,8 @@
 <template>
   <div>
-    <h2 class="uppercase text-xs font-semibold text-gray-400 mb-4">TROUVEZ MOI SUR</h2>
+    <h2 class="uppercase text-xs font-semibold text-gray-400 mb-4">
+      retrouvez moi sur
+    </h2>
     <div class="space-y-5">
       <NuxtLink
         v-for="link in links"
@@ -30,9 +32,9 @@ const links = [
     icon: "simple-icons:twitter",
   },
   {
-    name: 'Bluesky',
-    url: 'https://bsky.app/profile/da-max.bsky.social',
-    icon: 'simple-icons:bluesky'
+    name: "Bluesky",
+    url: "https://bsky.app/profile/da-max.bsky.social",
+    icon: "simple-icons:bluesky",
   },
   {
     name: "GitHub",
@@ -40,9 +42,9 @@ const links = [
     icon: "simple-icons:github",
   },
   {
-    name: 'GitLab',
-    url: 'https://gitlab.com/Damax',
-    icon: 'simple-icons:gitlab'
+    name: "GitLab",
+    url: "https://gitlab.com/Damax",
+    icon: "simple-icons:gitlab",
   },
   {
     name: "Linkedin",
@@ -52,12 +54,12 @@ const links = [
   {
     name: "Telegram",
     url: "https://t.me/Damaaax",
-    icon: "mdi:telegram",
+    icon: "simple-icons:telegram",
   },
   {
-    name: 'Instagram',
-    url: 'https://www.instagram.com/maximebh____/',
-    icon: 'simple-icons:instagram'
-  }
+    name: "Instagram",
+    url: "https://www.instagram.com/maximebh____/",
+    icon: "simple-icons:instagram",
+  },
 ];
 </script>

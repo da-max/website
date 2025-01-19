@@ -1,0 +1,9 @@
+{
+    "name": "Todo-GO",
+    "url": "https://github.com/da-max/todo-go",
+    "description": "Petit personnel de todolist m’ayant permis d’explorer le fonctionnement du graphql avec le langage Go, mais également la gestion de session et l’envoie de mail.",
+    "contribution": "J’ai créé ce petit projet de zéro, en plus du code, ce projet se compile automatiquement grâce à Github actions.",
+    "status": "LIVE",
+    "slug": "todo-go",
+    "opensource": false
+}

@@ -1,9 +1,10 @@
 {
     "name": "TokTok",
     "url": "https://toktok.actionpopulaire.fr",
-    "description": "Cette application cartographique aide les militant·e·s du parti politique « La France Insoumise » à cibler les endroits où il est le plus utile de militer et à noter les endroits où iels ont effectué du porte-à-porte.\nCette application est développée en TypeScript et avec une api Python (Flask).\nEn plus du développement de l’application et en tant que premier développeur frontend de l’application, j’aide les nouvelles et nouveaux contributeur⋅ice⋅s à monter en compétences sur le projet et à review les fonctionnalités implémentées.",
+    "description": "Cette application web permet aux militants du mouvement politique « La France Insoumise » de noter les portes-à-portes qu’iels ont effectués et de repérer les endroits où il est le plus utile de militer grâce à des données sociaux économiques (résultats d’élections, HLM, etc.).",
+    "contribution": "J’ai participé à la création de l’application (depuis décembre 2021) en tant que développeur au départ frontend (principalement en TypeScript) puis full-stack, j’ai donc eu à réfléchir autour des technologies à utiliser et des fonctionnalités à apporter. Depuis mai 2022, je suis lead développeur sur le projet, j’aide donc les autres membres à monter en compétences sur l’application. Je participe également à la définition du besoin fonctionnel en apportant mon point de vue technique.",
     "thumbnail": "/projects/toktok.svg",
-    "status": "live",
+    "status": "LIVE",
     "slug": "toktok",
     "opensource": false,
     "images": [

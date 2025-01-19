@@ -1,9 +1,10 @@
 {
     "name": "Court-circuit La Piarre",
     "url": "https://beta.cclapiarre.fedabian.fr/",
-    "description": "Cette application web permet aux adhérents de l’association Court-circuit d’organiser leurs commandes.",
+    "description": "Cette application a pour but d’aider au fonctionnement du groupe de La Piarre de l’association Court-circuit.",
+    "contribution": "J’ai créé cette application de a-z. J’ai également eu à échanger avec les utilisateur⋅ice⋅s afin de récueillir les besoins qu’iels avaient sur cette application.",
     "thumbnail": "/projects/cclapiarre.png",
-    "status": "live",
+    "status": "LIVE",
     "slug": "cclapiarre",
     "opensource": true,
     "images": [

@@ -1,15 +1,16 @@
 {
-    "name": "Contribulle",
-    "url": "https://contribulle.org",
-    "description": "Contribulle est une plateforme, sous licence libre, a pour but de mettre en relation des contributeur⋅ice⋅set des projets, principalement, libres. Le projet est né dans le cadre d'un Contribatelier.",
-    "thumbnail": "/projects/contribulle.svg",
-    "status": "live",
-    "slug": "contribulle",
+    "name": "Les arsenaux Sàrl",
+    "url": "https://ergo-art-senaux.ch",
+    "description": "L’entreprise suisse, basée à Fribourg, Les arsenaux procure des soins en art-thérapie et en ergothérapie. Elle m’a contacté afin que je crée leur site vitrine. Le site nécessitait différentes fonctionnalités tel que le support de plusieurs langues (Français-Allemand) et la modularité (permettre d’ajouter des nouvelles images, des nouveaux soins, etc.).",
+    "contribution": "En tant que développeur freelance, j’ai eu à intégrer une maquette fournie. Afin de rendre le site dynamique j’ai également eu à créer un thème et un plugin WordPress. Le site étant multi-langue,j’ai eu à utiliser différents plugins tel que ACF et Polylang. Pour accélérer le développement et la présentation au client j’ai créé un pipeline pour automatiser le déploiement de la version de développement et de production. Enfin, j’ai créé de la documentation afin que le client soit le plus autonome possible et puisse ajouter et modifier le site au mieux.",
+    "thumbnail": "/projects/arsenaux.png",
+    "status": "LIVE",
+    "slug": "arsenaux",
     "opensource": false,
     "images": [
-        "/projects/images/toktok/toktok-1.webp",
-        "/projects/images/toktok/toktok-2.webp",
-        "/projects/images/toktok/toktok-3.webp",
-        "/projects/images/toktok/toktok-4.webp"
+        "/projects/images/arsenaux/arsenaux-1.webp",
+        "/projects/images/arsenaux/arsenaux-2.webp",
+        "/projects/images/arsenaux/arsenaux-3.webp",
+        "/projects/images/arsenaux/arsenaux-4.webp"
     ]
 }

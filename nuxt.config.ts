@@ -12,10 +12,6 @@ export default defineNuxtConfig({
     "@nuxt/icon",
   ],
 
-  ui: {
-    icons: ["simple-icons"],
-  },
-
   app: {
     pageTransition: { name: "page", mode: "out-in" },
     head: {

@@ -1,0 +1,17 @@
+{
+    "name": "Contribulle",
+    "url": "https://contribulle.org",
+    "description": "Contribulle est une plateforme, sous licence libre, a pour but de mettre en relation des contributeur⋅ice⋅set des projets, principalement, libres. Le projet est né dans le cadre d'un Contribatelier au milieu de l'année 2020.",
+    "contribution": "Depuis novembre 2020, je contribue au frontend (HTML, SCSS, JS) du site Contribulle. Je contribue activement en projet en prenant par à des réunions mensuelles et en ajoutant des nouvelles fonctionnalités.",
+    "thumbnail": "/projects/contribulle.svg",
+    "status": "LIVE",
+    "slug": "contribulle",
+    "opensource": false,
+    "repository": "",
+    "images": [
+        "/projects/images/contribulle/contribulle-1.webp",
+        "/projects/images/contribulle/contribulle-2.webp",
+        "/projects/images/contribulle/contribulle-3.webp",
+        "/projects/images/contribulle/contribulle-4.webp"
+    ]
+}
