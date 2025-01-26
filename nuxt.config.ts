@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     "@nuxt/content",
     "@vueuse/nuxt",
     "@nuxt/icon",
+    "@nuxtjs/sitemap",
   ],
 
   app: {
