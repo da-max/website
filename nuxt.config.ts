@@ -40,6 +40,10 @@ export default defineNuxtConfig({
 
   compatibilityDate: "2025-01-05",
   nitro: {
-    preset: "bun",
+    preset: "aws_lambda",
+    serveStatic: true,
+    output: {
+      publicDir: '.output/server',
+    }
   },
 });
