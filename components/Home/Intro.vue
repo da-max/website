@@ -22,7 +22,7 @@
     <p class="text-gray-900 dark:text-gray-400">
       Le jour je suis entre la
       <a href="https://sgp.fr">Société des grands projets</a> ou j’occupe le
-      poste de chargé de développement et l’Université Paris-Cité ou je suis
+      poste de chargé de développement et l’Université Paris-Cité où je suis
       étudiant en dernière année de master d’informatique spécialisé en génie
       logiciel.<br />
       La nuit, je développe des projets pour des associations et partis

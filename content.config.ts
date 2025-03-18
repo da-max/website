@@ -4,7 +4,7 @@ import { article, project } from "./types";
 export default defineContentConfig({
   collections: {
     projects: defineCollection({
-      type: "page",
+      type: "data",
       source: "projects/**.json",
       schema: project,
     }),

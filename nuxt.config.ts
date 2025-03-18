@@ -3,20 +3,20 @@ export default defineNuxtConfig({
 
   modules: [
     "@nuxt/ui",
+    "@nuxtjs/sitemap",
     "@nuxtjs/google-fonts",
     "@nuxtjs/fontaine",
     "@nuxt/image",
     "@nuxt/content",
     "@vueuse/nuxt",
     "@nuxt/icon",
-    "@nuxtjs/sitemap",
   ],
 
   app: {
     pageTransition: { name: "page", mode: "out-in" },
     head: {
       htmlAttrs: {
-        lang: "en",
+        lang: "fr",
         class: "h-full",
       },
       bodyAttrs: {
