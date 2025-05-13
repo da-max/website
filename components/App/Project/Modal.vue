@@ -11,14 +11,9 @@ const onClose = () => {
 </script>
 
 <template>
-  <UModal
-    v-model="open"
-    :transition="false"
-    indicators
-    :ui="{
-      width: 'w-full sm:max-w-[50vw]',
-    }"
-  >
-    <AppProjectModalContent :project="project" @close="onClose" />
+  <UModal v-model:open="open" :transition="false" indicators>
+    <template #content>
+      <AppProjectModalContent :project="project" @close="onClose" />
+    </template>
   </UModal>
 </template>

@@ -13,8 +13,7 @@ defineProps<{
 <template>
   <UCard
     :ui="{
-      ring: '',
-      divide: 'divide-y divide-gray-100 dark:divide-gray-800',
+      root: 'divide-y divide-gray-100 dark:divide-gray-800',
     }"
   >
     <template #header>
@@ -34,28 +33,16 @@ defineProps<{
     <UCarousel
       v-show="project.images"
       :items="project.images"
-      indicators
+      dots
       class="w-10/12 mx-auto mb-6"
       :ui="{
         item: 'basis-full',
         container: 'rounded-lg',
-        indicators: {
-          wrapper: 'relative bottom-0 mt-4',
-        },
+        dots: 'relative bottom-0 mt-4',
       }"
     >
       <template #default="{ item }">
         <img :src="item" class="w-full" draggable="false" />
-      </template>
-
-      <template #indicator="{ onClick, page, active }">
-        <UButton
-          :label="String(page)"
-          :variant="active ? 'solid' : 'outline'"
-          size="2xs"
-          class="rounded-full min-w-6 justify-center"
-          @click="onClick(page)"
-        />
       </template>
     </UCarousel>
     <p>

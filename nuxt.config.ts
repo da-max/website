@@ -4,14 +4,13 @@ export default defineNuxtConfig({
   modules: [
     "@nuxt/ui",
     "@nuxtjs/sitemap",
-    "@nuxtjs/google-fonts",
-    "@nuxtjs/fontaine",
     "@nuxt/image",
     "@nuxt/content",
     "@vueuse/nuxt",
     "@nuxt/icon",
+    "@nuxt/fonts",
   ],
-
+  css: ["~/assets/css/main.css"],
   app: {
     pageTransition: { name: "page", mode: "out-in" },
     head: {
@@ -24,22 +23,17 @@ export default defineNuxtConfig({
       },
     },
   },
-
   content: {
-    highlight: {
-      theme: "github-dark",
+    build: {
+      markdown: {
+        highlight: {
+          theme: "github-dark",
+        },
+      },
     },
   },
-
-  googleFonts: {
-    display: "swap",
-    families: {
-      Inter: [400, 500, 600, 700, 800, 900],
-    },
-  },
-
   compatibilityDate: "2025-01-05",
   nitro: {
-    preset: 'node-server'
+    preset: "node-server",
   },
 });

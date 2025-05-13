@@ -20,6 +20,7 @@
         "@iconify-json/lucide": "1.2.42",
         "@iconify-json/simple-icons": "1.2.34",
         "@nuxt/content": "^3.5.1",
+        "@nuxt/fonts": "0.11.3",
         "@nuxt/image": "1.10.0",
         "@nuxt/ui": "3.1.1",
         "@nuxtjs/fontaine": "^0.5.0",
@@ -29,6 +30,8 @@
         "@vueuse/nuxt": "13.1.0",
         "bindings": "1.5.0",
         "nuxt": "3.17.3",
+        "sharp": "^0.34.1",
+        "tailwindcss": "^4.1.6",
         "vue-use-fixed-header": "^2.0.3",
         "zod": "^3.24.4"
     },
