@@ -2,7 +2,7 @@
 FROM node:25 AS base
 WORKDIR /usr/src/app
 
-RUN corepack enable pnpm
+RUN npm install -g --force corepack && corepack enable pnpm
 
 FROM base AS install
 

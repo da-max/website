@@ -20,14 +20,15 @@
       Python, Django et Golang.
     </p>
     <p class="text-gray-900 dark:text-gray-400">
-      Le jour je suis entre la
-      <a href="https://sgp.fr">Société des grands projets</a> ou j’occupe le
-      poste de chargé de développement et l’Université Paris-Cité où je suis
-      étudiant en dernière année de master d’informatique spécialisé en génie
-      logiciel.<br />
+      Le jour je travaille à la
+      <a href="https://sgp.fr" target="_blank">Société des grands projets</a> où j’occupe le
+      poste de développeur informatique.<br />
       La nuit, je développe des projets pour des associations et partis
       politique en particulier depuis 2021, je suis lead développeur sur
       l’application TokTok développé pour le mouvement La France Insoumise.
+      <br />
+      En 2025, ce projet a donné lieu à la création d’une association, dont je suis le co-fondateur et le trésorier
+      qui se nomme <a href="https://la-manufacture.io" target="_blank">La Manufacture</a>.
     </p>
     <p class="text-gray-900 dark:text-gray-400">
       Un grand merci à <a href="https://zooper.pages.dev/">Fayaz</a> pour la
