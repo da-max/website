@@ -9,32 +9,33 @@
         "postinstall": "nuxt prepare"
     },
     "devDependencies": {
-        "@nuxt/devtools": "3.1.1",
-        "@nuxt/icon": "2.2.1",
-        "prettier": "3.8.3",
-        "prettier-plugin-tailwindcss": "0.8.0",
-        "typescript": "^6.0.3",
-        "vue-tsc": "^3.2.7"
+        "@nuxt/devtools": "4.0.0",
+        "@nuxt/icon": "2.6.2",
+        "prettier": "3.9.10",
+        "prettier-plugin-tailwindcss": "0.8.1",
+        "typescript": "^7.0.2",
+        "vue-tsc": "^3.3.14"
     },
     "dependencies": {
-        "@iconify-json/lucide": "1.2.105",
-        "@iconify-json/simple-icons": "1.2.80",
-        "@nuxt/content": "^3.13.0",
-        "@nuxt/fonts": "0.14.0",
-        "@nuxt/image": "2.0.0",
-        "@nuxt/ui": "4.7.1",
+        "@iconify-json/lucide": "1.2.149",
+        "@iconify-json/simple-icons": "1.2.101",
+        "@nuxt/content": "^3.16.2",
+        "@nuxt/fonts": "1.2.0",
+        "@nuxt/image": "2.2.0",
+        "@nuxt/ui": "4.12.0",
         "@nuxtjs/fontaine": "^0.5.0",
         "@nuxtjs/google-fonts": "3.2.0",
-        "@nuxtjs/mdc": "0.21.1",
-        "@nuxtjs/sitemap": "8.0.15",
-        "@tailwindcss/typography": "^0.5.19",
-        "@vueuse/nuxt": "14.3.0",
+        "@nuxtjs/mdc": "0.23.2",
+        "@nuxtjs/sitemap": "9.1.0",
+        "@tailwindcss/typography": "^0.5.20",
+        "@vueuse/nuxt": "15.0.0",
+        "better-sqlite3": "^13.0.3",
         "bindings": "1.5.0",
-        "nuxt": "4.4.4",
-        "sharp": "^0.34.5",
-        "tailwindcss": "^4.2.4",
+        "nuxt": "4.6.3",
+        "sharp": "^0.35.5",
+        "tailwindcss": "^4.3.3",
         "vue-use-fixed-header": "^2.0.3",
-        "zod": "^4.4.2"
+        "zod": "^4.6.7"
     },
-    "packageManager": "pnpm@10.29.1+sha512.48dae233635a645768a3028d19545cacc1688639eeb1f3734e42d6d6b971afbf22aa1ac9af52a173d9c3a20c15857cfa400f19994d79a2f626fcc73fccda9bbc"
+    "packageManager": "pnpm@12.16.1"
 }

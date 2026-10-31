@@ -1,5 +1,5 @@
 # SEE : https://bun.sh/guides/ecosystem/docker
-FROM node:25 AS base
+FROM node:26 AS base
 WORKDIR /usr/src/app
 
 RUN npm install -g --force corepack && corepack enable pnpm
